@@ -241,6 +241,7 @@ employees = [
     }
 ]
 
+#Task 1
 #code to Print the name of the person who has the highest salary at the company
 highest_salary = employees[0]
 for employee in employees:
@@ -249,6 +250,7 @@ for employee in employees:
 
 print(f"The person with the highest salary is {highest_salary['first_name']} ")
 
+#Task 2
 #code to Print the combined years of experience of all employees at the company.
 total_years_of_experience = 0
 for employee in employees:
@@ -256,6 +258,7 @@ for employee in employees:
 
 print(f"The total years of experience for all employees at the company is {total_years_of_experience} years of work experience")
 
+#Task 3
 #code to collate employees without an email address
 no_email_address = []
 for employee in employees:
@@ -263,6 +266,7 @@ for employee in employees:
         no_email_address.append(employee)
 print(no_email_address)
 
+#Task 4
 #code to analyse what costs the company more
 cost_of_product_department = 0
 cost_of_business_department = 0
@@ -282,6 +286,7 @@ else:
 
 print(f"The production department costs the comapny {cost_of_product_department} whilst the business department costs {cost_of_business_department} therefore the {max_cost} costs the company the most to maintain")
 
+#Task 5
 #code to find the average salary for people over 30 years of age
 employees_over_30 =[]
 for employee in employees:
@@ -292,6 +297,7 @@ average_salary = int(total_salary/len(employees_over_30))
 
 print(f"The average salary for employees over 30 is: {average_salary}")
 
+#Task 6
 #Code to create a dictionary to categorize the job titles
 job_title_counts = {}
 

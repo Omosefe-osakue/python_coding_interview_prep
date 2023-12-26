@@ -11,11 +11,16 @@ tries = 3
 userPin = input("Enter your Pin: ")
 
 while(tries > 0):
+    
     #Check if user input is a valid digit
     if(not userPin.isdigit()):
-        print("What you have entered above is not a digit")
+        print("What you have entered above is not a valid digit")
         break
 
+    #Check if user input is of a valid length
+    if(len(userPin) != 4):
+        break
+    
     #Check if the user pin is correct
     if pin == int(userPin):
         userAction= input("Would you like to make a Withdrawal (W), Deposit (D) or see your account Balance (B) : ").lower()

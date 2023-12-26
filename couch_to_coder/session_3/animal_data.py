@@ -38,7 +38,6 @@ for a in animals:
         mammals.append(a)
 print(mammals)
 
-
 #code to find mammals with more than 7 letters in its name
 long_named_animals = []
 print("The following animals have more than 7 letters in its name")
