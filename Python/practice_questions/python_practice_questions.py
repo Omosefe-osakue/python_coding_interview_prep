@@ -140,7 +140,7 @@ alaphabet_calculator("occurrence")
 
 
 # total all of the matching integer elements in an array
-def matcing_integer(word_list):
+def matching_integer(word_list):
     matching_list = {}
     total = 0
 
@@ -157,7 +157,7 @@ def matcing_integer(word_list):
     print(total)
 
 
-matcing_integer([45, 45, 5, 6, 3, 4, 5, 6, 3])
+matching_integer([45, 45, 5, 6, 3, 4, 5, 6, 3])
 
 
 # to reverse an array
