@@ -160,7 +160,6 @@ def matching_integer(word_list):
 matching_integer([45, 45, 5, 6, 3, 4, 5, 6, 3])
 
 
-# to reverse an array
 def reverse_array(ar):
     print(ar[::-1])
 
